@@ -1,0 +1,11 @@
+LIBRARY "PPSSPPWindows"
+EXPORTS
+	Launch						PRIVATE
+	Shutdown					PRIVATE
+	Save						PRIVATE
+	Load						PRIVATE
+	GetGameInfo					PRIVATE
+	Pause						PRIVATE
+	Resume						PRIVATE
+	SetAudioVolume				PRIVATE
+	SetLimitFrame				PRIVATE

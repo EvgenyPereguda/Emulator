@@ -1,0 +1,122 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="MainName">Omega Red PS1/PS2/PSP emulator</sys:String>
+    <sys:String x:Key="ControlTitle">Config</sys:String>
+    <sys:String x:Key="MediaTitle">Media</sys:String>
+    <sys:String x:Key="DisplayModeTitle">Display mode:</sys:String>
+    <sys:String x:Key="ControlModeTitle">Control mode:</sys:String>
+    <sys:String x:Key="TopmostTitle">Set on top all windows</sys:String>
+    <sys:String x:Key="CompressionQualityTitle">Video compression quality:</sys:String>
+    <sys:String x:Key="EnableWideScreenTitle">Turn on widescreen mode</sys:String>
+    <sys:String x:Key="LanguageTitle">Current language:</sys:String>
+    <sys:String x:Key="ColourSchemaTitle">Current colour schema:</sys:String>
+    <sys:String x:Key="CaptureManagerTitle">Powered by CaptureManager SDK</sys:String>
+    <sys:String x:Key="PCSX2Title">Powered by PCSX2</sys:String>
+    <sys:String x:Key="PPSSPPTitle">Powered by PPSSPP</sys:String>
+    <sys:String x:Key="PCSXRTitle">Powered by PCSX-Reloaded</sys:String>
+    <sys:String x:Key="YesTitle">Confirm</sys:String>
+    <sys:String xml:space="preserve" x:Key="NoTitle">Cancel </sys:String>
+    <sys:String xml:space="preserve" x:Key="VersionTitle">Version: </sys:String>
+    <sys:String xml:space="preserve" x:Key="DurationTitle">Duration: </sys:String>
+    <sys:String xml:space="preserve" x:Key="LastDateTitle">Last writing date: </sys:String>
+    <sys:String xml:space="preserve" x:Key="DateTitle">Date: </sys:String>
+    <sys:String xml:space="preserve" x:Key="ZoneTitle">Region: </sys:String>
+    <sys:String xml:space="preserve" x:Key="TypeTitle">Platform: </sys:String>
+    <sys:String x:Key="PadControlTypeTitle">Pad type:</sys:String>
+    <sys:String x:Key="ConfigTitle">General config</sys:String>
+    <sys:String x:Key="PadTitle">Pad</sys:String>
+    <sys:String x:Key="BIOSTitle">BIOS</sys:String>
+    <sys:String x:Key="MemoryCardTitle">Memory card</sys:String>
+    <sys:String x:Key="ISOTitle">Game disc</sys:String>
+    <sys:String xml:space="preserve" x:Key="TypeISOTitle">File type: </sys:String>
+    <sys:String xml:space="preserve" x:Key="DiscRegionTypeTitle">Region: </sys:String>
+    <sys:String xml:space="preserve" x:Key="GameDiscTypeTitle">Disc type: </sys:String>
+    <sys:String xml:space="preserve" x:Key="WideScreenTitle">Widescreen format</sys:String>
+    <sys:String x:Key="SlotTitle">Saving</sys:String>
+    <sys:String x:Key="AutosaveTitle">Autosaving</sys:String>
+    <sys:String x:Key="QuicksaveTitle">Quick saving</sys:String>
+    <sys:String x:Key="ScreenshotsTitle">Captured screens</sys:String>
+    <sys:String x:Key="VideoTitle">Captured videos</sys:String>
+    <sys:String xml:space="preserve" x:Key="TimeLineTitle">Time line: </sys:String>
+    <sys:String xml:space="preserve" x:Key="ModuleBeforeTitle">Module </sys:String>
+    <sys:String xml:space="preserve" x:Key="ModuleAfterTitle"> loading.</sys:String>
+    <sys:String x:Key="ModuleIsLoadedTitle">is finished.</sys:String>
+    <sys:String x:Key="ModuleIsNotLoadedTitle">is not finished.</sys:String>
+    <sys:String x:Key="StartingTitle">Launching...</sys:String>
+    <sys:String x:Key="TouchPadTitle">Touch pad</sys:String>
+    <sys:String x:Key="GamePadTitle">Game pad</sys:String>
+    <sys:String x:Key="DisplayModeWindowTitle">Regular</sys:String>
+    <sys:String x:Key="DisplayModeFullTitle">Fullscreen</sys:String>
+    <sys:String x:Key="ControlModeButtonTitle">Button</sys:String>
+    <sys:String x:Key="ControlModeTouchTitle">Touch</sys:String>
+    <sys:String x:Key="NoneInitilizedTitle">Not initialized</sys:String>
+    <sys:String x:Key="InitilizedTitle">Initialized</sys:String>
+    <sys:String x:Key="StoppedTitle">Stopped</sys:String>
+    <sys:String x:Key="PausedTitle">Paused</sys:String>
+    <sys:String x:Key="StartedTitle">Started</sys:String>
+    <sys:String x:Key="MediaOutputTypeCaptureTitle">Recording to file</sys:String>
+    <sys:String x:Key="MediaOutputTypeStreamTitle">Streaming</sys:String>
+    <sys:String x:Key="MediaOutputTypeStreamNotSupportingTitle">Freeware is not supported</sys:String>
+    <sys:String x:Key="TouchPadScaleTitle">Touch pad scale:</sys:String>
+    <sys:String x:Key="RenderingSchemaTitle">Rendering schema:</sys:String>
+    <sys:String x:Key="IsFXAATitle">Enable PS2-FXAA &amp; PS1-Sharpen</sys:String>
+    <sys:String x:Key="SavingTitle">Saving...</sys:String>
+    <sys:String x:Key="BiosTipTitle">Bios is not accessible, try download by link:</sys:String>
+    <sys:String x:Key="IsoTipTitle">Iso disc is not accessible, try download by links:</sys:String>
+    <sys:String x:Key="SocialNetworksTitle">Sign in:</sys:String>
+    <sys:String xml:space="preserve" x:Key="UploadTitle">  Upload  </sys:String>
+    <sys:String x:Key="LoadTitle">Download</sys:String>
+    <sys:String x:Key="UploadingProgressTitle">Progress uploading to cloud:</sys:String>
+    <sys:String x:Key="DownloadingProgressTitle">Progress downloading from cloud:</sys:String>
+    <sys:String x:Key="DrivesaveTitle">Cloud saving</sys:String>
+    <sys:String x:Key="YouTubeVideoTitle">Title of video:</sys:String>
+    <sys:String x:Key="YouTubeVideoDescriptionTitle">Description of video:</sys:String>
+    <sys:String x:Key="YouTubeVideoTagsTitle">Tags of video:</sys:String>
+    <sys:String x:Key="YouTubeVideoCategoryIdTitle">CategoryId of video:</sys:String>
+    <sys:String x:Key="YouTubeVideoPrivacyStatusTitle">Privacy status of video:</sys:String>
+    <sys:String x:Key="SendTitle">Upload</sys:String>
+    <sys:String x:Key="CaptureModeTitle">Capture mode:</sys:String>
+    <sys:String x:Key="MediaSourcesTitle">Media sources</sys:String>
+    <sys:String x:Key="YouTubeStreamTitle">Streams</sys:String>
+    <sys:String x:Key="YouTubeStreamTitleTitle">Stream' title:</sys:String>
+    <sys:String x:Key="YouTubeStreamDescriptionTitle">Stream' description:</sys:String>
+    <sys:String x:Key="YouTubeBroadcastTitle">Broadcasts</sys:String>
+    <sys:String x:Key="YouTubeBroadcastTitleTitle">Broadcasts' title:</sys:String>
+    <sys:String x:Key="YouTubeBroadcastDescriptionTitle">Broadcasts' description:</sys:String>
+    <sys:String x:Key="VideoStreamBitRateTitle">Video bitrate:</sys:String>
+    <sys:String x:Key="AudioStreamBitRateTitle">Audio bitrate:</sys:String>
+    <sys:String x:Key="StreamServiceTitle">Stream service:</sys:String>
+    <sys:String x:Key="StreamKeyTitle">Stream identificator:</sys:String>
+    <sys:String x:Key="StreamConnectionWarningTitle">Connection with the server is lost!!!</sys:String>
+    <sys:String x:Key="RecordServiceTitle">Size of the recorded file:</sys:String>
+    <sys:String x:Key="UnlimitedTitle">Unlimited</sys:String>
+    <sys:String x:Key="S_1_4_GbTitle">1.4 Gb</sys:String>
+    <sys:String x:Key="S_700_MbTitle">700 Mb</sys:String>
+    <sys:String x:Key="VariableBitrateTitle">Variable bitrate</sys:String>
+    <sys:String xml:space="preserve" x:Key="VideoFileRecordedInfoTitle"> recorded!!!</sys:String>
+    <sys:String xml:space="preserve" x:Key="VideoFileRecordingFailedTitle">Recording is failed!!!</sys:String>
+    <sys:String x:Key="VideoFileRecordingStartedTitle">Recording is started!!!</sys:String>
+    <sys:String x:Key="VideoStreamingFailedTitle">Streaming is failed!!!</sys:String>
+    <sys:String x:Key="VideoStreamingStartedTitle">Streaming is started!!!</sys:String>
+    <sys:String x:Key="VideoStreamingIsClosedTitle">Streaming is closed!!!</sys:String>
+    <sys:String xml:space="preserve" x:Key="MemoryCardInfoTitle">Memory card </sys:String>
+    <sys:String x:Key="SharedTitle">shared</sys:String>
+    <sys:String x:Key="VisualVibrationIsEnabledTitle">Visual vibration is enabled</sys:String>
+    <sys:String x:Key="GroupTitle">Count</sys:String>
+    <sys:String x:Key="TexturePackModeTitle">Texture pack load mode</sys:String>
+    <sys:String x:Key="TexturePackModeNoneTitle">Without texture pack</sys:String>
+    <sys:String x:Key="TexturePackModeLoadTitle">Load texture pack</sys:String>
+    <sys:String x:Key="TexturePackModeSaveTitle">Save textures</sys:String>
+    <sys:String x:Key="LowBatteryTitle">has low battery!!!</sys:String>
+    <sys:String x:Key="EmptyBatteryTitle">has empty battery!!!</sys:String>
+    <sys:String x:Key="SkipFrameModeTitle">Skip frame mode:</sys:String>
+    <sys:String x:Key="SkipFrameModeNoneTitle">Skip none frames</sys:String>
+    <sys:String x:Key="SkipFrameModeOneTitle">Skip one frame</sys:String>
+    <sys:String x:Key="SkipFrameModeTwoTitle">Skip two frames</sys:String>
+    <sys:String x:Key="ShowFrameRateTitle">Show frames per second</sys:String>
+    <sys:String x:Key="RefreshScreenTitle">Refresh screen:</sys:String>
+    <sys:String x:Key="FPSTitle">FPS</sys:String>
+    <sys:String x:Key="ResolutionModeTitle">Rendering resolution:</sys:String>
+</ResourceDictionary>
